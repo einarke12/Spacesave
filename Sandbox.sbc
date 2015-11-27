@@ -1,27 +1,29 @@
 <?xml version="1.0"?>
 <MyObjectBuilder_Checkpoint xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <CurrentSector x="0" y="0" z="0" />
-  <ElapsedGameTime>266798880000</ElapsedGameTime>
+  <ElapsedGameTime>553152320000</ElapsedGameTime>
   <SessionName>A brave new world</SessionName>
   <SpectatorPosition>
-    <Position x="53597.175068231292" y="-26700.945755108252" z="11928.621448494956" />
-    <Forward x="-0.783439338" y="-0.445460558" z="-0.433344752" />
-    <Up x="-0.389803082" y="0.8953016" z="-0.215612262" />
+    <Position x="53597.17209899798" y="-26700.941156493511" z="11928.621789959725" />
+    <Forward x="-0.783387363" y="-0.4455469" z="-0.433350027" />
+    <Up x="-0.389871478" y="0.8952586" z="-0.215667009" />
     <Orientation>
-      <X>-0.197087973</X>
-      <Y>0.494453162</Y>
-      <Z>0.116213374</Z>
-      <W>0.838550448</W>
+      <X>-0.197130337</X>
+      <Y>0.4944337</Y>
+      <Z>0.116233945</Z>
+      <W>0.838549137</W>
     </Orientation>
   </SpectatorPosition>
-  <CameraEntity>0</CameraEntity>
+  <CameraController>Entity</CameraController>
+  <CameraEntity>116125118410420257</CameraEntity>
+  <ControlledObject>116125118410420257</ControlledObject>
   <Password />
   <Description />
-  <LastSaveTime>2015-11-26T05:07:18.731323+00:00</LastSaveTime>
-  <SpectatorDistance>2.643275</SpectatorDistance>
+  <LastSaveTime>2015-11-27T00:14:13.1879388+00:00</LastSaveTime>
+  <SpectatorDistance>14.6211891</SpectatorDistance>
   <CharacterToolbar>
     <ToolbarType>Character</ToolbarType>
-    <SelectedSlot xsi:nil="true" />
+    <SelectedSlot>0</SelectedSlot>
     <Slots>
       <Slot>
         <Index>0</Index>
@@ -48,8 +50,8 @@
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
           <DefinitionId>
-            <TypeId>MyObjectBuilder_MyProgrammableBlock</TypeId>
-            <SubtypeId>LargeProgrammableBlock</SubtypeId>
+            <TypeId>MyObjectBuilder_CubeBlock</TypeId>
+            <SubtypeId>LargeBlockArmorSlope</SubtypeId>
           </DefinitionId>
         </Data>
       </Slot>
@@ -58,8 +60,8 @@
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
           <DefinitionId>
-            <TypeId>MyObjectBuilder_TerminalBlock</TypeId>
-            <SubtypeId>ControlPanel</SubtypeId>
+            <TypeId>MyObjectBuilder_CubeBlock</TypeId>
+            <SubtypeId>LargeBlockArmorBlock</SubtypeId>
           </DefinitionId>
         </Data>
       </Slot>
@@ -68,8 +70,48 @@
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
           <DefinitionId>
-            <TypeId>MyObjectBuilder_Projector</TypeId>
-            <SubtypeId>LargeProjector</SubtypeId>
+            <TypeId>MyObjectBuilder_OreDetector</TypeId>
+            <SubtypeId>LargeOreDetector</SubtypeId>
+          </DefinitionId>
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>5</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId>
+            <TypeId>MyObjectBuilder_SolarPanel</TypeId>
+            <SubtypeId>LargeBlockSolarPanel</SubtypeId>
+          </DefinitionId>
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>6</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId>
+            <TypeId>MyObjectBuilder_MedicalRoom</TypeId>
+            <SubtypeId>LargeMedicalRoom</SubtypeId>
+          </DefinitionId>
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>7</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId>
+            <TypeId>MyObjectBuilder_CargoContainer</TypeId>
+            <SubtypeId>SmallBlockMediumContainer</SubtypeId>
+          </DefinitionId>
+        </Data>
+      </Slot>
+      <Slot>
+        <Index>8</Index>
+        <Item />
+        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+          <DefinitionId>
+            <TypeId>MyObjectBuilder_LandingGear</TypeId>
+            <SubtypeId>LargeBlockLandingGear</SubtypeId>
           </DefinitionId>
         </Data>
       </Slot>
@@ -79,37 +121,7 @@
         <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
           <DefinitionId>
             <TypeId>MyObjectBuilder_PhysicalGunObject</TypeId>
-            <SubtypeId>WelderItem</SubtypeId>
-          </DefinitionId>
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>10</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
-          <DefinitionId>
-            <TypeId>MyObjectBuilder_PhysicalGunObject</TypeId>
-            <SubtypeId>AngleGrinderItem</SubtypeId>
-          </DefinitionId>
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>11</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId>
-            <TypeId>MyObjectBuilder_ShipWelder</TypeId>
-            <SubtypeId>LargeShipWelder</SubtypeId>
-          </DefinitionId>
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>12</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId>
-            <TypeId>MyObjectBuilder_TerminalBlock</TypeId>
-            <SubtypeId>ControlPanel</SubtypeId>
+            <SubtypeId>HandDrillItem</SubtypeId>
           </DefinitionId>
         </Data>
       </Slot>
@@ -118,35 +130,37 @@
         <Item />
         <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
           <DefinitionId>
-            <TypeId>MyObjectBuilder_Wheel</TypeId>
-            <SubtypeId>Wheel3x3</SubtypeId>
-          </DefinitionId>
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>14</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId>
-            <TypeId>MyObjectBuilder_MotorSuspension</TypeId>
-            <SubtypeId>Suspension1x1</SubtypeId>
-          </DefinitionId>
-        </Data>
-      </Slot>
-      <Slot>
-        <Index>15</Index>
-        <Item />
-        <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
-          <DefinitionId>
-            <TypeId>MyObjectBuilder_SolarPanel</TypeId>
-            <SubtypeId>LargeBlockSolarPanel</SubtypeId>
+            <TypeId>MyObjectBuilder_OreDetector</TypeId>
+            <SubtypeId>LargeOreDetector</SubtypeId>
           </DefinitionId>
         </Data>
       </Slot>
     </Slots>
   </CharacterToolbar>
   <ControlledEntities>
-    <dictionary />
+    <dictionary>
+      <item>
+        <Key xsi:type="xsd:long">116125118410420257</Key>
+        <Value xsi:type="PlayerId">
+          <ClientId>76561198001068747</ClientId>
+          <SerialId>0</SerialId>
+        </Value>
+      </item>
+      <item>
+        <Key xsi:type="xsd:long">72063715649830643</Key>
+        <Value xsi:type="PlayerId">
+          <ClientId>76561197961018919</ClientId>
+          <SerialId>0</SerialId>
+        </Value>
+      </item>
+      <item>
+        <Key xsi:type="xsd:long">141356536353052593</Key>
+        <Value xsi:type="PlayerId">
+          <ClientId>76561198090801272</ClientId>
+          <SerialId>0</SerialId>
+        </Value>
+      </item>
+    </dictionary>
   </ControlledEntities>
   <Settings xsi:type="MyObjectBuilder_SessionSettings">
     <GameMode>Survival</GameMode>
@@ -204,7 +218,7 @@
     <MaxDrones>5</MaxDrones>
     <EnableDrones>true</EnableDrones>
   </Settings>
-  <AppVersion>1109013</AppVersion>
+  <AppVersion>1110005</AppVersion>
   <Factions>
     <Factions>
       <MyObjectBuilder_Faction>
@@ -230,6 +244,11 @@
           </MyObjectBuilder_FactionMember>
           <MyObjectBuilder_FactionMember>
             <PlayerId>144115188075855877</PlayerId>
+            <IsLeader>false</IsLeader>
+            <IsFounder>false</IsFounder>
+          </MyObjectBuilder_FactionMember>
+          <MyObjectBuilder_FactionMember>
+            <PlayerId>144115188075855878</PlayerId>
             <IsLeader>false</IsLeader>
             <IsFounder>false</IsFounder>
           </MyObjectBuilder_FactionMember>
@@ -279,6 +298,10 @@
         </item>
         <item>
           <Key xsi:type="xsd:long">144115188075855877</Key>
+          <Value xsi:type="xsd:long">275962982816266717</Value>
+        </item>
+        <item>
+          <Key xsi:type="xsd:long">144115188075855878</Key>
           <Value xsi:type="xsd:long">275962982816266717</Value>
         </item>
       </dictionary>
@@ -399,16 +422,16 @@
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855875</IdentityId>
       <DisplayName>Nodelon</DisplayName>
-      <CharacterEntityId>113784804676262634</CharacterEntityId>
+      <CharacterEntityId>72063715649830643</CharacterEntityId>
       <Model>Engineer_suit_no_helmet</Model>
-      <ColorMask x="0" y="-0.96" z="-0.5" />
+      <ColorMask x="0.575" y="0.15" z="0.2" />
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855876</IdentityId>
       <DisplayName>regnbogasulta</DisplayName>
-      <CharacterEntityId>0</CharacterEntityId>
+      <CharacterEntityId>116125118410420257</CharacterEntityId>
       <Model>Engineer_suit_no_helmet</Model>
-      <ColorMask x="0.716666639" y="-0.19" z="0.41" />
+      <ColorMask x="0.63611114" y="0.05" z="0.46" />
     </MyObjectBuilder_Identity>
     <MyObjectBuilder_Identity>
       <IdentityId>144115188075855877</IdentityId>
@@ -417,10 +440,255 @@
       <Model>Engineer_suit_no_helmet</Model>
       <ColorMask x="0.841666639" y="1" z="0.62" />
     </MyObjectBuilder_Identity>
+    <MyObjectBuilder_Identity>
+      <IdentityId>144115188075855878</IdentityId>
+      <DisplayName>Bli</DisplayName>
+      <CharacterEntityId>141356536353052593</CharacterEntityId>
+      <Model>Engineer_suit_no_helmet</Model>
+      <ColorMask x="0.875" y="1" z="1" />
+    </MyObjectBuilder_Identity>
   </Identities>
+  <Clients>
+    <MyObjectBuilder_Client>
+      <SteamId>76561198001068747</SteamId>
+      <Name>regnbogasulta</Name>
+      <IsAdmin>true</IsAdmin>
+    </MyObjectBuilder_Client>
+    <MyObjectBuilder_Client>
+      <SteamId>76561198090801272</SteamId>
+      <Name>Bli</Name>
+      <IsAdmin>false</IsAdmin>
+    </MyObjectBuilder_Client>
+    <MyObjectBuilder_Client>
+      <SteamId>76561197961018919</SteamId>
+      <Name>Nodelon</Name>
+      <IsAdmin>false</IsAdmin>
+    </MyObjectBuilder_Client>
+  </Clients>
   <PreviousEnvironmentHostility>SAFE</PreviousEnvironmentHostility>
   <AllPlayersData>
     <dictionary>
+      <item>
+        <Key xsi:type="PlayerId">
+          <ClientId>76561198001068747</ClientId>
+          <SerialId>0</SerialId>
+        </Key>
+        <Value xsi:type="MyObjectBuilder_Player">
+          <DisplayName>regnbogasulta</DisplayName>
+          <IdentityId>144115188075855876</IdentityId>
+          <Connected>true</Connected>
+          <Toolbar>
+            <ToolbarType>Character</ToolbarType>
+            <SelectedSlot xsi:nil="true" />
+            <Slots>
+              <Slot>
+                <Index>0</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_PhysicalGunObject</TypeId>
+                    <SubtypeId>WelderItem</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>1</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_PhysicalGunObject</TypeId>
+                    <SubtypeId>AngleGrinderItem</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>2</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_CubeBlock</TypeId>
+                    <SubtypeId>LargeBlockArmorSlope</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>3</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_CubeBlock</TypeId>
+                    <SubtypeId>LargeBlockArmorBlock</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>4</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_OreDetector</TypeId>
+                    <SubtypeId>LargeOreDetector</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>5</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_SolarPanel</TypeId>
+                    <SubtypeId>LargeBlockSolarPanel</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>6</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_ShipConnector</TypeId>
+                    <SubtypeId>Connector</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>7</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_ConveyorConnector</TypeId>
+                    <SubtypeId>ConveyorTubeCurved</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>8</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_LandingGear</TypeId>
+                    <SubtypeId>LargeBlockLandingGear</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>9</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_PhysicalGunObject</TypeId>
+                    <SubtypeId>HandDrillItem</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>13</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_OreDetector</TypeId>
+                    <SubtypeId>LargeOreDetector</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+            </Slots>
+          </Toolbar>
+          <CharacterCameraData EntityId="0">
+            <IsFirstPerson>true</IsFirstPerson>
+            <Distance>5.1967698655056109</Distance>
+            <HeadAngle x="11.6707516" y="0" />
+          </CharacterCameraData>
+          <EntityCameraData>
+            <CameraControllerSettings EntityId="141643898638469376">
+              <IsFirstPerson>false</IsFirstPerson>
+              <Distance>14.621189190505703</Distance>
+              <HeadAngle x="17.8875065" y="-124.087479" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="139686596403356806">
+              <IsFirstPerson>false</IsFirstPerson>
+              <Distance>14.621189190505703</Distance>
+              <HeadAngle x="0" y="0" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="108990969686415241">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>2.6432750225067139</Distance>
+              <HeadAngle x="0" y="0.3375" />
+            </CameraControllerSettings>
+          </EntityCameraData>
+          <BuildColorSlots>
+            <Vector3>
+              <X>0.516666651</X>
+              <Y>-0.09</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>0</Y>
+              <Z>0.05</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.333333343</X>
+              <Y>-0.48</Y>
+              <Z>-0.25</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.575</X>
+              <Y>0</Y>
+              <Z>0</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.122222222</X>
+              <Y>-0.1</Y>
+              <Z>0.26</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.95</Y>
+              <Z>0.4</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.96</Y>
+              <Z>-0.5</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.85</Y>
+              <Z>0.2</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>0.15</Y>
+              <Z>0.25</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.333333343</X>
+              <Y>-0.329999983</Y>
+              <Z>-0.049999997</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.575</X>
+              <Y>0.15</Y>
+              <Z>0.2</Z>
+            </Vector3>
+            <Vector3>
+              <X>0.122222222</X>
+              <Y>0.0500000045</Y>
+              <Z>0.459999979</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.799999952</Y>
+              <Z>0.6</Z>
+            </Vector3>
+            <Vector3>
+              <X>0</X>
+              <Y>-0.809999943</Y>
+              <Z>-0.3</Z>
+            </Vector3>
+          </BuildColorSlots>
+        </Value>
+      </item>
       <item>
         <Key xsi:type="PlayerId">
           <ClientId>76561197961018919</ClientId>
@@ -481,6 +749,36 @@
                   <DefinitionId>
                     <TypeId>MyObjectBuilder_Projector</TypeId>
                     <SubtypeId>LargeProjector</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>6</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_ShipConnector</TypeId>
+                    <SubtypeId>Connector</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>7</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_ExtendedPistonBase</TypeId>
+                    <SubtypeId>LargePistonBase</SubtypeId>
+                  </DefinitionId>
+                </Data>
+              </Slot>
+              <Slot>
+                <Index>8</Index>
+                <Item />
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                  <DefinitionId>
+                    <TypeId>MyObjectBuilder_TerminalBlock</TypeId>
+                    <SubtypeId>ControlPanel</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
@@ -548,13 +846,38 @@
           </Toolbar>
           <CharacterCameraData EntityId="0">
             <IsFirstPerson>true</IsFirstPerson>
-            <Distance>2.6432749594944842</Distance>
-            <HeadAngle x="0" y="0" />
+            <Distance>5.1967698655056109</Distance>
+            <HeadAngle x="11.6707516" y="0" />
           </CharacterCameraData>
           <EntityCameraData>
-            <CameraControllerSettings EntityId="94938478649869345">
+            <CameraControllerSettings EntityId="139686596403356806">
               <IsFirstPerson>true</IsFirstPerson>
-              <Distance>30.103839421072465</Distance>
+              <Distance>200</Distance>
+              <HeadAngle x="0" y="0" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="141356536353052593">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>5.1967697143554687</Distance>
+              <HeadAngle x="-8.421875" y="0" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="93551743814422982">
+              <IsFirstPerson>false</IsFirstPerson>
+              <Distance>119.28244730077607</Distance>
+              <HeadAngle x="0" y="0" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="108990969686415241">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>119.28244730077607</Distance>
+              <HeadAngle x="0" y="0" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="127307671017551251">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>14.621189190505703</Distance>
+              <HeadAngle x="-8.3359375" y="0" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="141643898638469376">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>115.74073028564455</Distance>
               <HeadAngle x="0" y="0" />
             </CameraControllerSettings>
           </EntityCameraData>
@@ -626,7 +949,7 @@
             </Vector3>
             <Vector3>
               <X>0</X>
-              <Y>-0.81</Y>
+              <Y>-0.809999943</Y>
               <Z>-0.3</Z>
             </Vector3>
           </BuildColorSlots>
@@ -634,13 +957,13 @@
       </item>
       <item>
         <Key xsi:type="PlayerId">
-          <ClientId>76561198001068747</ClientId>
+          <ClientId>76561198090801272</ClientId>
           <SerialId>0</SerialId>
         </Key>
         <Value xsi:type="MyObjectBuilder_Player">
-          <DisplayName>regnbogasulta</DisplayName>
-          <IdentityId>144115188075855876</IdentityId>
-          <Connected>false</Connected>
+          <DisplayName>Bli</DisplayName>
+          <IdentityId>144115188075855878</IdentityId>
+          <Connected>true</Connected>
           <Toolbar>
             <ToolbarType>Character</ToolbarType>
             <SelectedSlot xsi:nil="true" />
@@ -648,30 +971,30 @@
               <Slot>
                 <Index>0</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCreateGrid">
                   <DefinitionId>
-                    <TypeId>MyObjectBuilder_PhysicalGunObject</TypeId>
-                    <SubtypeId>WelderItem</SubtypeId>
+                    <TypeId>MyObjectBuilder_GridCreateToolDefinition</TypeId>
+                    <SubtypeId>CreateStation</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
               <Slot>
                 <Index>1</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemWeapon">
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCreateGrid">
                   <DefinitionId>
-                    <TypeId>MyObjectBuilder_PhysicalGunObject</TypeId>
-                    <SubtypeId>AngleGrinderItem</SubtypeId>
+                    <TypeId>MyObjectBuilder_GridCreateToolDefinition</TypeId>
+                    <SubtypeId>CreateLargeShip</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
               <Slot>
                 <Index>2</Index>
                 <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
+                <Data xsi:type="MyObjectBuilder_ToolbarItemCreateGrid">
                   <DefinitionId>
-                    <TypeId>MyObjectBuilder_CubeBlock</TypeId>
-                    <SubtypeId>LargeBlockArmorBlock</SubtypeId>
+                    <TypeId>MyObjectBuilder_GridCreateToolDefinition</TypeId>
+                    <SubtypeId>CreateSmallShip</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
@@ -681,7 +1004,7 @@
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId>
                     <TypeId>MyObjectBuilder_CubeBlock</TypeId>
-                    <SubtypeId>LargeBlockArmorSlope2Tip</SubtypeId>
+                    <SubtypeId>LargeBlockArmorBlock</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
@@ -690,8 +1013,8 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId>
-                    <TypeId>MyObjectBuilder_Projector</TypeId>
-                    <SubtypeId>LargeProjector</SubtypeId>
+                    <TypeId>MyObjectBuilder_ConveyorConnector</TypeId>
+                    <SubtypeId>ConveyorTubeCurved</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
@@ -700,8 +1023,8 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId>
-                    <TypeId>MyObjectBuilder_Cockpit</TypeId>
-                    <SubtypeId>PassengerSeatLarge</SubtypeId>
+                    <TypeId>MyObjectBuilder_ConveyorConnector</TypeId>
+                    <SubtypeId>ConveyorTube</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
@@ -710,8 +1033,8 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId>
-                    <TypeId>MyObjectBuilder_Gyro</TypeId>
-                    <SubtypeId>LargeBlockGyro</SubtypeId>
+                    <TypeId>MyObjectBuilder_ShipConnector</TypeId>
+                    <SubtypeId>Connector</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
@@ -720,8 +1043,8 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId>
-                    <TypeId>MyObjectBuilder_RemoteControl</TypeId>
-                    <SubtypeId>LargeBlockRemoteControl</SubtypeId>
+                    <TypeId>MyObjectBuilder_InteriorLight</TypeId>
+                    <SubtypeId>SmallLight</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
@@ -730,18 +1053,8 @@
                 <Item />
                 <Data xsi:type="MyObjectBuilder_ToolbarItemCubeBlock">
                   <DefinitionId>
-                    <TypeId>MyObjectBuilder_Reactor</TypeId>
-                    <SubtypeId>LargeBlockSmallGenerator</SubtypeId>
-                  </DefinitionId>
-                </Data>
-              </Slot>
-              <Slot>
-                <Index>9</Index>
-                <Item />
-                <Data xsi:type="MyObjectBuilder_ToolbarItemCreateGrid">
-                  <DefinitionId>
-                    <TypeId>MyObjectBuilder_GridCreateToolDefinition</TypeId>
-                    <SubtypeId>CreateSmallShip</SubtypeId>
+                    <TypeId>MyObjectBuilder_ReflectorLight</TypeId>
+                    <SubtypeId>LargeBlockFrontLight</SubtypeId>
                   </DefinitionId>
                 </Data>
               </Slot>
@@ -749,93 +1062,36 @@
           </Toolbar>
           <CharacterCameraData EntityId="0">
             <IsFirstPerson>true</IsFirstPerson>
-            <Distance>2.6432749594944842</Distance>
-            <HeadAngle x="0" y="0" />
+            <Distance>5.1967698655056109</Distance>
+            <HeadAngle x="11.6707516" y="0" />
           </CharacterCameraData>
           <EntityCameraData>
-            <CameraControllerSettings EntityId="119027487632758639">
+            <CameraControllerSettings EntityId="139686596403356806">
               <IsFirstPerson>true</IsFirstPerson>
-              <Distance>16.172677624945603</Distance>
+              <Distance>14.621189117431642</Distance>
               <HeadAngle x="0" y="0" />
             </CameraControllerSettings>
-            <CameraControllerSettings EntityId="94938478649869345">
+            <CameraControllerSettings EntityId="127307671017551251">
               <IsFirstPerson>true</IsFirstPerson>
-              <Distance>25.900553046797995</Distance>
-              <HeadAngle x="22.2749557" y="-110.700119" />
+              <Distance>14.621189117431642</Distance>
+              <HeadAngle x="-8.3359375" y="0" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="141356536353052593">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>14.621189190505703</Distance>
+              <HeadAngle x="0" y="0" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="141643898638469376">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>10.702658659596223</Distance>
+              <HeadAngle x="-8.100022" y="-553.840332" />
+            </CameraControllerSettings>
+            <CameraControllerSettings EntityId="108990969686415241">
+              <IsFirstPerson>true</IsFirstPerson>
+              <Distance>10.702658653259277</Distance>
+              <HeadAngle x="0" y="1.35" />
             </CameraControllerSettings>
           </EntityCameraData>
-          <BuildColorSlots>
-            <Vector3>
-              <X>0.7583333</X>
-              <Y>1</Y>
-              <Z>0</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>0</Y>
-              <Z>0.05</Z>
-            </Vector3>
-            <Vector3>
-              <X>0.333333343</X>
-              <Y>-0.48</Y>
-              <Z>-0.25</Z>
-            </Vector3>
-            <Vector3>
-              <X>0.575</X>
-              <Y>0</Y>
-              <Z>0</Z>
-            </Vector3>
-            <Vector3>
-              <X>0.122222222</X>
-              <Y>-0.1</Y>
-              <Z>0.26</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>-0.95</Y>
-              <Z>0.4</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>-0.96</Y>
-              <Z>-0.5</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>-0.85</Y>
-              <Z>0.2</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>0.15</Y>
-              <Z>0.25</Z>
-            </Vector3>
-            <Vector3>
-              <X>0.333333343</X>
-              <Y>-0.329999983</Y>
-              <Z>-0.049999997</Z>
-            </Vector3>
-            <Vector3>
-              <X>0.575</X>
-              <Y>0.15</Y>
-              <Z>0.2</Z>
-            </Vector3>
-            <Vector3>
-              <X>0.122222222</X>
-              <Y>0.0500000045</Y>
-              <Z>0.459999979</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>-0.799999952</Y>
-              <Z>0.6</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>-0.809999943</Y>
-              <Z>-0.3</Z>
-            </Vector3>
-          </BuildColorSlots>
         </Value>
       </item>
       <item>
@@ -925,8 +1181,8 @@
           </Toolbar>
           <CharacterCameraData EntityId="0">
             <IsFirstPerson>true</IsFirstPerson>
-            <Distance>2.6432749594944842</Distance>
-            <HeadAngle x="0" y="0" />
+            <Distance>5.1967698655056109</Distance>
+            <HeadAngle x="11.6707516" y="0" />
           </CharacterCameraData>
           <EntityCameraData>
             <CameraControllerSettings EntityId="127235151133520995">
@@ -934,84 +1190,7 @@
               <Distance>4.1835540750907629</Distance>
               <HeadAngle x="0" y="0" />
             </CameraControllerSettings>
-            <CameraControllerSettings EntityId="94938478649869345">
-              <IsFirstPerson>true</IsFirstPerson>
-              <Distance>2.6462585926055908</Distance>
-              <HeadAngle x="0" y="0" />
-            </CameraControllerSettings>
           </EntityCameraData>
-          <BuildColorSlots>
-            <Vector3>
-              <X>0</X>
-              <Y>-1</Y>
-              <Z>0</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>0</Y>
-              <Z>0.05</Z>
-            </Vector3>
-            <Vector3>
-              <X>0.333333343</X>
-              <Y>-0.48</Y>
-              <Z>-0.25</Z>
-            </Vector3>
-            <Vector3>
-              <X>0.575</X>
-              <Y>0</Y>
-              <Z>0</Z>
-            </Vector3>
-            <Vector3>
-              <X>0.122222222</X>
-              <Y>-0.1</Y>
-              <Z>0.26</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>-0.95</Y>
-              <Z>0.4</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>-0.96</Y>
-              <Z>-0.5</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>-0.85</Y>
-              <Z>0.2</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>0.15</Y>
-              <Z>0.25</Z>
-            </Vector3>
-            <Vector3>
-              <X>0.333333343</X>
-              <Y>-0.329999983</Y>
-              <Z>-0.049999997</Z>
-            </Vector3>
-            <Vector3>
-              <X>0.575</X>
-              <Y>0.15</Y>
-              <Z>0.2</Z>
-            </Vector3>
-            <Vector3>
-              <X>0.122222222</X>
-              <Y>0.0500000045</Y>
-              <Z>0.459999979</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>-0.799999952</Y>
-              <Z>0.6</Z>
-            </Vector3>
-            <Vector3>
-              <X>0</X>
-              <Y>-0.809999943</Y>
-              <Z>-0.3</Z>
-            </Vector3>
-          </BuildColorSlots>
         </Value>
       </item>
     </dictionary>
@@ -1035,6 +1214,17 @@
                 <X>53534.94</X>
                 <Y>-26709.21</Y>
                 <Z>12002.7</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+            </Entry>
+            <Entry>
+              <name>remote mining base</name>
+              <description>Current position</description>
+              <coords>
+                <X>18460.47</X>
+                <Y>-52004.04</Y>
+                <Z>-32099.84</Z>
               </coords>
               <isFinal>true</isFinal>
               <showOnHud>true</showOnHud>
@@ -1071,6 +1261,46 @@
           </Entries>
         </Value>
       </item>
+      <item>
+        <Key xsi:type="xsd:long">144115188075855875</Key>
+        <Value xsi:type="MyObjectBuilder_Gps">
+          <Entries>
+            <Entry>
+              <name>First Colonial base</name>
+              <description>Current position</description>
+              <coords>
+                <X>53569.07</X>
+                <Y>-26713.6</Y>
+                <Z>11917.69</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+            </Entry>
+            <Entry>
+              <name>New</name>
+              <description>New coordinates</description>
+              <coords>
+                <X>0</X>
+                <Y>0</Y>
+                <Z>0</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+            </Entry>
+            <Entry>
+              <name>remote mining base</name>
+              <description>By: regnbogasulta</description>
+              <coords>
+                <X>18460.47</X>
+                <Y>-52004.04</Y>
+                <Z>-32099.84</Z>
+              </coords>
+              <isFinal>true</isFinal>
+              <showOnHud>true</showOnHud>
+            </Entry>
+          </Entries>
+        </Value>
+      </item>
     </dictionary>
   </Gps>
   <SessionComponents>
@@ -1080,14 +1310,25 @@
       <TimeoutInfos />
     </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_SpacePlanetTrackComponent" />
-    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_PirateAntennas">
-      <PiratesIdentity>144115188075855874</PiratesIdentity>
-      <Drones />
-    </MyObjectBuilder_SessionComponent>
     <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_ScriptManager">
       <variables>
         <dictionary />
       </variables>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_CoordinateSystem">
+      <LastCoordSysId>7</LastCoordSysId>
+      <CoordSystems>
+        <CoordSysInfo>
+          <Id>5</Id>
+          <EntityCount>1</EntityCount>
+          <Rotation x="0.8590982" y="0.4310826" z="-0.123704888" w="0.246607348" />
+          <Position x="51454.996893167496" y="-32505.773706614971" z="20333.553935647011" />
+        </CoordSysInfo>
+      </CoordSystems>
+    </MyObjectBuilder_SessionComponent>
+    <MyObjectBuilder_SessionComponent xsi:type="MyObjectBuilder_PirateAntennas">
+      <PiratesIdentity>144115188075855874</PiratesIdentity>
+      <Drones />
     </MyObjectBuilder_SessionComponent>
   </SessionComponents>
   <InGameTime>2081-01-01T07:00:00</InGameTime>
@@ -1142,9 +1383,22 @@
             <Lost>false</Lost>
           </Value>
         </item>
+        <item>
+          <Key xsi:type="pair">
+            <stm>76561198090801272</stm>
+            <ser>0</ser>
+          </Key>
+          <Value xsi:type="MyObjectBuilder_MissionTriggers">
+            <WinTriggers />
+            <LoseTriggers />
+            <Won>false</Won>
+            <Lost>false</Lost>
+          </Value>
+        </item>
       </dictionary>
     </Triggers>
   </MissionTriggers>
+  <Briefing />
   <IsAISchoolScenario>false</IsAISchoolScenario>
   <RequiresDX>11</RequiresDX>
 </MyObjectBuilder_Checkpoint>
